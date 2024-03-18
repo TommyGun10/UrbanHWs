@@ -7,10 +7,11 @@ test(20, 80.5, "okay", True)
 
 
 def factorial(n):
-    if n == 1:
+    if n == 0:
         return 1
     factorial_low = factorial(n=n - 1)
     return n * factorial_low
 
 
-print('Factorial 10 =', factorial(10))
+a = int(input('Введите число для рассчета факториала: '))
+print(f"Факториал числа {a} равен {factorial(a)}")
