@@ -17,7 +17,7 @@ def square_def(i):
 print(square_def(5))
 
 
-class Rect:
+class Rect: # Вызывавемые объекты
     def __init__(self, a):
         self.a = a
 
